@@ -1,0 +1,197 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    
+  }
+body {
+  background: #acffac;
+  background: url(forest1.jpg)no-repeat center center/cover;
+  font-family: sans-serif;
+  height: 100vh;
+  background-size: cover; 
+  overflow: hidden;
+}
+.container{
+	width:400px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #000;
+  position: absolute;
+  border-radius: 9px;
+
+	transform: translate(-50%,-50%);
+}
+.header{
+	padding-top: 25px;
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}
+.main{
+
+	text-align: center;
+}
+input{
+    background: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  color: white;
+  padding: 5px 5px;
+  width: auto;
+}
+input[type=submit]{
+	border: 2px solid white;
+	border-radius: 3px;
+}
+input[type=submit][disabled]{
+    background:grey;
+}
+
+
+#center{
+	padding-top:10px;
+	padding-left: 25px;
+	padding-bottom: 13px;
+	text-align: left;
+	color: white;
+	
+}
+#signup{
+	margin: 25px;
+	padding:5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+p{
+	margin-top: 15px;
+	margin: 15px;
+	background-color: white;
+	font-weight: bolder;
+	word-spacing: 4px;
+}
+p a{
+	text-decoration: none;
+}
+.container1{
+	width:400px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #000;
+	border-radius: 9px;
+
+  position: absolute;
+	transform: translate(-50%,-50%);
+}
+#center1{
+	padding-top:10px;
+	padding-left: 60px;
+	padding-bottom: 13px;
+	text-align: left;
+	color: white;
+}
+#login{
+	margin: 25px;
+	padding:5px;
+	cursor: pointer;
+	font-weight: 900;
+   letter-spacing: 1px;
+}
+#message{
+	color:rgb(252, 121, 81);
+	font-size: 13px;
+	padding-top:5px;
+	
+}
+#passwd{
+color: yellowgreen;
+font-size: 15px;
+padding-top: 10px;
+}
+#passw{
+
+	color:rgb(252, 121, 81);
+}
+#show{
+color: white;
+}
+td input[type="text"], input[type="password"], input[type="email"]{
+	margin-left: 5px;
+}
+td input[type="text"], input[type="password"], input[type="email"] ::placeholder{
+	font-size: 13px;
+}
+
+/* responsive */
+@media screen and (max-width:360px){
+	.container1{
+		width:330px;
+		height: 400px;
+		top: 50%;
+		left: 50%;
+		background: rgba(0, 0, 0, 0.5);
+		color: #000;
+	
+	  position: absolute;
+		transform: translate(-50%,-50%);
+	}
+	#center1{
+		padding-top:10px;
+		padding-left: 40px;
+		padding-bottom: 13px;
+		font-size: 12px;
+		text-align: left;
+		color: white;
+	}
+	#center{
+		padding-top:10px;
+		padding-left: 25px;
+		padding-bottom: 13px;
+		text-align: left;
+		color: white;
+		font-size: 12px;
+	}
+	.container{
+		width:330px;
+		height: 600px;
+		top: 50%;
+		left: 50%;
+		background: rgba(0, 0, 0, 0.5);
+		color: #000;
+	  position: absolute;
+		transform: translate(-50%,-50%);
+	}
+	input{
+		padding: 5px 5px;
+	   width: auto;
+	   /* margin-right: 25px; */
+	  }
+	  
+	  td input[type="text"], input[type="password"], input[type="email"] ::placeholder{
+		  font-size: 13px;
+	  }
+	  #message{
+		color:rgb(252, 121, 81);
+		font-size: 12px;
+		padding-top:5px;
+		
+	}
+	#passwd{
+	color: yellowgreen;
+	font-size: 10px;
+	padding-top: 10px;
+	}
+	#passw{
+		color:rgb(252, 121, 81);
+		font-size: 12px;
+	}
+	#show{
+	color: white;
+	font-size: 13px;
+	}
+}
+

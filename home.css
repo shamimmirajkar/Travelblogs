@@ -1,0 +1,513 @@
+/*navbar */
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f6fa;
+    font-family: Verdana, sans-serif; margin:0
+}
+
+h2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    /*z-index: 6;*/
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0em;
+    padding: 1em;
+    padding-left: 5.5em;
+    color: white;
+    letter-spacing: 3px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.logo {
+    float:left;
+    margin: 0em;
+    margin-right: 25%;
+    margin-left: 2%;
+}
+
+.topnav.responsive .icon {
+    position: static;
+    right: 0;
+    top: 0;
+}
+
+
+.topnav.responsive .logo{
+    display: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+}
+p.qoute{
+  position:relative;
+}
+.latest{
+  margin-top:-8%;
+} 
+
+
+@media screen and (max-width: 800px) {
+    
+    .logo {
+        width: 1em;
+        margin: 0em;
+    }
+    /* .latest{
+      margin-top:-25%;
+    }  */
+    
+}
+
+@media screen and (max-width: 1025px) {
+   
+    .img{
+        width: 0.5em;
+        margin: 0em;
+        margin-left: 15vw;
+    
+    }
+
+    
+    .logo>img {
+        padding: 0.5em;
+        margin: 0em;
+        /* margin-right: 0%; */
+        width: 10em;
+        height:auto;
+
+    }
+    .latest{
+      margin-top:-15%;
+    } 
+}
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color:lemonchiffon;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:saddlebrown;
+  color: grey;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    position: relative;
+    z-index: 3;
+    float: right;
+    display: block;
+}
+    
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+ @media screen and (max-width: 910px) {
+    .logo {
+        margin-left: 2em;
+    }
+    
+    
+    iframe {
+        margin-left: 10%;
+        width: 600px;
+        height: 480px;
+        border-radius: 10px;
+    }
+    .map {
+        margin-left: -10%;
+    }
+} 
+
+
+
+
+ @media screen and (max-width: 600px) {
+   .latest{
+    margin-top:-66%;
+  }  
+    div>img {
+       /* width: auto; */
+       height: 15em;
+    }
+    
+ } 
+
+
+ @media screen and (max-width: 800px) {
+  /* .latest{
+    margin-top:-66%;
+  }  */
+  html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .font {
+        margin: 0em;
+    }
+    
+    a.titleplace {
+        position: relative;
+        top: -50vh;
+        left: 0%;
+        right: 10vh;
+        font-family: Edwardian Script ITC;
+        font-size: 50px;
+        font-size: bolder;
+        color: white;
+    }
+    iframe {
+        margin-left: 10%;
+        width: 350px;
+        height: 480px;
+        border-radius: 10px;
+    }
+}
+
+.bgimg {
+    margin-top: 0px;
+    background-image: url("img/santorini.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+@font-face {
+    src: url(ostrich-sans-master/OstrichSans-Bold.otf);
+    font-family: OstrichSans-Bold;
+}
+
+.font {
+    padding: auto;
+    color: orange;
+    font-family: OstrichSans-Bold, verdana;
+    font-size: 80px;
+}
+
+.titleplace {
+    position: absolute;
+    top:40vh;
+    left: 40%;
+    /* right: 50vh; */
+    font-family: Edwardian Script ITC;
+    font-size: 80px;
+    font-size: bolder;
+    color: white;
+}
+
+.qoute {
+    position: relative;
+    top: -42vh;
+   
+    font-family: Bradley Hand ITC;
+    font-size: 20px;
+    text-align: center;
+    color: wheat;
+}
+
+
+/*grid*/
+
+/* h2 {} */
+
+
+
+.wrapper>div {
+    background: #d9d09d;
+    padding: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper>div:nth-child(odd) {
+    background: burlywood;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, 3, 1fr);
+    grid-gap: 2em;
+    padding: 0em;
+    padding-top: 1em;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.box {
+    border-radius: 5px;
+}
+
+.box:hover {
+    border-radius: 5px;
+    transition: 0.4s;
+    transform: scale(1.1);
+    box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.8);
+}
+
+.backimg>img {
+    position: absolute;
+    z-index: -3;
+    background-image: url('img/Newyork.jpg');
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*slides*/
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.map {
+    margin-top: 6%;
+    overflow-x: auto;
+    /* margin-left: auto; */
+    /* margin-right: 50%; */
+    margin-bottom: 2em;
+}
+
+
+
+
+/* On smaller screens, decrease text size */
+
+ @media only screen and (max-width: 900px) {
+   
+    .backimg>img {
+        position: absolute;
+        z-index: -3;
+        background-image: url('img/Newyork.jpg');
+        height: 403px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+}
+
+ iframe {
+    border-radius: 10px;
+}
+
+input {
+    height: 3em;
+    width: 25em;
+    border-radius: 5px;
+}
+#ok{
+    height: 3em;
+    width: 7em;
+    background-color: burlywood;
+    border-radius: 5px;
+}
+
+
+/*footer*/
+
+ footer {
+    padding: 1em;
+    background-color: rgb(43, 40, 40);
+    color: wheat;
+}  

@@ -1,0 +1,35 @@
+   body {
+       padding: 5em;
+   }
+   
+   wrapper>div {
+       background: #d9d09d;
+       padding: 1em;
+   }
+   
+   .wrapper>div:nth-child(odd) {
+       background: #acffac;
+   }
+   
+   .wrapper {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+       grid-template-columns: repeat(autofit, 3, 1fr);
+       grid-gap: 1em;
+   }
+   
+   img {
+       width: 100%;
+       height: auto;
+   }
+   
+   .box {
+       border-radius: 5px;
+   }
+   
+   .box:hover {
+       border-radius: 5px;
+       transition: 0.4s;
+       transform: scale(1.1);
+       box-shadow: 0 64px 64px 0 rgba(0, 0, 0, 0.8);
+   }

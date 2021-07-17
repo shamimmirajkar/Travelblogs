@@ -1,0 +1,322 @@
+* {
+    margin: 0%;
+    padding: 0px;
+}
+
+body {
+    margin: -8px;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {margin:0;font-family:Arial}
+
+.img{
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.logo {
+    float: left;
+    margin: 0em;
+    margin-right: 24%;
+    margin-left: 1%;
+}
+.topnav.responsive .icon {
+    position: static;
+    right: 0;
+    top: 0;
+}
+
+
+.topnav.responsive .logo{
+    display: none;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .logo {
+        width: 1em;
+        margin: 0em;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+   
+    .img {
+        width: 0.5em;
+        margin: 0em;
+        margin-left: 15vw;
+    
+    }
+    .logo>img {
+        padding: 0.5em;
+        margin: 0em;
+        /* margin-right: 0%; */
+        width: 10em;
+        height:auto;
+
+    }
+}
+.topnav {
+  overflow: hidden;
+  background-color:white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: teal;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color:black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:teal;
+  color:white;
+}
+
+.dropdown-content a:hover {
+  background-color:teal;
+  color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  html,body
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: auto; 
+    }
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+      position: relative;
+      z-index: 3;
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 910px) {
+    .logo {
+        margin-left: 2em;
+    }
+    .font {
+        margin-right: 0.5em;
+    }
+}
+
+@font-face {
+    src: url(ostrich-sans-master/OstrichSansInline-Regular.otf);
+    font-family: OstrichSansInline-Regular;
+}
+
+.font {
+    position: relative;
+    float: right;
+    z-index: -2;
+    margin-right: 1.7em;
+    margin-top: inherit;
+    padding: 0em;
+    color: black;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: OstrichSansInline-Regular, verdana;
+    font-size: 100px;
+}
+
+p {
+    margin-left: 5em;
+    height: 0em;
+}
+
+
+
+@media screen and (max-width: 910px) {
+    
+    .font {
+        margin-right: 0.5em;
+        writing-mode: horizontal-tb;
+        float: none;
+        font-size: xxx-large;
+        margin-left: 23%;
+    }
+}
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1 {
+    font-family: 'verdana', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    margin-left: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.team .team_member {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 10px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+    border-radius: 10px;
+}
+
+.team .team_member h3 {
+    color: teal;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team .team_member .team_img img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.team_member>a>socialicon {
+    height: 10px;
+    width: 10px;
+}
+
+.fa-instagram {
+    position: relative;
+    z-index: 2;
+    /* padding: 1px;
+    
+    width: 2px;*/
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .team {
+        margin-top: 10%;
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .team .team_member .team_img {
+      position: relative;
+      left:49%;
+    }
+    .team .team_member h3 {
+    margin-top: 10%;
+    }
+}
+
